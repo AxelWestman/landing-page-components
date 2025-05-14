@@ -1,0 +1,14 @@
+.header-container{
+    width: 100%;
+    min-height: 100lvh;
+    background-image: url("./justicia.jpg");
+    background-size: cover;
+}
+
+@media(min-width: 1024px){
+
+
+    .header-container{
+    background-image: url("./books.jpg");
+    }
+}
