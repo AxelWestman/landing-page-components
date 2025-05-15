@@ -1,6 +1,29 @@
+
+
+
+
+
 .navbar{
     width: 100%;
-    background-color: #FEE2B3;
+    background-color: #2E0000;
     margin: 0px;
     height: 55px;
+    position: relative;
+    z-index: 1;
 }
+
+.container{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 55px;
+}
+
+.burga{
+    font-size: 35px;
+    margin-left: 15px;
+    color: white;
+}
+
+

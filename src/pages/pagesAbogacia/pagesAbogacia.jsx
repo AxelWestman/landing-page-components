@@ -1,14 +1,13 @@
-import Navbar from './components/Navbar/navbar'
-import Header from './components/Header/header'
+import HeaderAndNavbar from '../pagesAbogacia/components/Header-and-navbar/header-and-navbar'
 
 const Pagina_abogados = () => {
 
     return(
 
         <>
-        <Navbar />
-        <Header />
-        {/* <p>Abogados works!</p> */}
+        <HeaderAndNavbar />
+        
+        <p>Abogados works!</p>
         </>
 
     )
