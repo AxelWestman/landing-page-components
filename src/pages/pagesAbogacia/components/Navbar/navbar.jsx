@@ -55,6 +55,13 @@ const Navbar = () => {
       <div className="navbar">
         <div className="container">
           <RxHamburgerMenu className="burga" onClick={toggleDrawer(true)}/>
+          <p className="logo">logo</p>
+          <ul className="lista">
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+          </ul>
         </div>
         <Drawer open={open} onClose={toggleDrawer(false)}>
           {DrawerList}

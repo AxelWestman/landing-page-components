@@ -1,4 +1,5 @@
 import HeaderAndNavbar from '../pagesAbogacia/components/Header-and-navbar/header-and-navbar'
+import Practices from '../pagesAbogacia/components/Practices-areas/practices'
 
 const Pagina_abogados = () => {
 
@@ -6,7 +7,7 @@ const Pagina_abogados = () => {
 
         <>
         <HeaderAndNavbar />
-        
+        <Practices />
         <p>Abogados works!</p>
         </>
 
