@@ -1,0 +1,140 @@
+.solutions-section{
+    width: 100%;
+    height: auto;
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.solutions-images{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foto-abogado{
+    width: 300px;
+}
+
+.solutions-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.solutions-text h1{
+    font-family: "Baskervville", serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px 0px 20px 0px;
+    color: black;
+    width: 281px;
+
+}
+
+.solutions-text p{
+    color: #364D59;
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: start;
+}
+
+.boton-cita{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B40000;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: small;
+    /* font-style: normal; */
+    margin: 35px 0px 10px 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+@media(min-width: 728px){
+
+    .solutions-section{
+        flex-direction: column;
+    }
+
+    .solutions-images{
+        flex-direction: row;
+        margin-top: 15px;
+    }
+
+    .solutions-text{
+        /* border: 1px solid green; */
+        width: 650px;
+        align-items: start;
+    }
+
+    .solutions-text h1{
+        text-align: start;
+        margin-left: 12px;
+        font-size: xx-large;
+    }
+
+    .solutions-text p{
+        text-align: start;
+        width: 80%;
+    }
+
+
+}
+
+
+@media(min-width: 1024px){
+
+    /* .solutions-images{
+        height: 600px;
+        width: 100%;
+    } */
+
+    /* .foto-abogado{
+    width: 300px;
+    } */
+
+    .solutions-text{
+       
+    }
+
+    /* .solutions-text{
+        height: 500px;
+        width: 30%;
+        justify-content: center;
+        align-items: start;
+        /* margin-left: 100px; 
+
+    } */
+
+    /* .solutions-text h1{
+        text-align: start;
+        margin-left: 12px;
+        font-size: xx-large;
+    } */
+
+    /* .solutions-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: start;
+    } */
+
+
+
+}

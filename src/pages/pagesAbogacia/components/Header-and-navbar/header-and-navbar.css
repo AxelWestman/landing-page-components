@@ -44,6 +44,7 @@ h1{
     margin: 0px 0px 0px 10px;
     color: white;
     width: 281px;
+    font-size: xx-large;
 }
 
 p{
@@ -67,6 +68,7 @@ p{
     /* font-style: normal; */
     margin: 15px 0px 0px 10px;
     height: 50px;
+    border-radius: 10px;
 }
 
 @media(min-width: 1024px){
