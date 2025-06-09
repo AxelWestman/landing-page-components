@@ -10,10 +10,10 @@ const Footer = () => {
 
                 </div>
                 <ul>
-                    <li>Sobre nosotros</li>
-                    <li>Testimonios</li>
-                    <li>Términos de servicio</li>
-                    <li>Contáctenos</li>
+                    <a><li>Sobre nosotros</li></a>
+                    <a><li>Testimonios</li></a>
+                    <a><li>Términos de servicio</li></a>
+                    <a><li>Contáctenos</li></a>
                 </ul>
 
             </section>
